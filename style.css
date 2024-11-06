@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    font-family: Arial;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* box1 */
+.nav_logo {
+    cursor: pointer;
+    padding-top: 4px;
+    margin-left: 10px;
+}
+
+.logo-img {
+    width: 100px;
+    height: 50px;
+}
+
+.border {
+    transition: border 0.25s ease;
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+/* box2 */
+.nav-address {
+    height: 75%;
+    cursor: pointer;
+    padding: 7px 9px 0px 9px;
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+}
+
+/* box3 */
+.nav-search {
+    display: flex;
+    width: 55rem;
+    height: 40px;
+    justify-content: space-evenly;
+    border: 3px solid transparent;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.nav-search:hover {
+    border: 3px solid orange;
+    border-radius: 6px;
+}
+
+.search-select {
+    border-radius: 4px 0px 0px 4px;
+    background-color: #e6e6e6;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    padding: 7px 10px 10px 7px;
+}
+
+.search-icon {
+    width: 45px;
+    background-color: rgb(248, 189, 78);
+    border-radius: 0px 4px 4px 0px;
+    display: flex;
+    justify-content: center;
+    /* for horizontal centering */
+    align-items: center;
+    /* for vertical centering */
+    font-size: 1.2rem;
+    color: black;
+    cursor: pointer;
+}
+
+.search-icon:hover {
+    background-color: rgb(250, 173, 30);
+
+}
+
+/* box4 */
+.nav-tools {
+    width: 4rem;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 1px;
+}
+
+
+/* box5 */
+.nav-signin {
+    padding: 7px 9px;
+    margin-left: 2px;
+    line-height: 0.9;
+    cursor: pointer;
+}
+
+.nav-line1 {
+    font-size: 0.76rem;
+}
+
+.nav-line2 {
+    font-size: 0.87rem;
+    font-weight: bold;
+}
+
+/* box6 */
+.nav-orders {
+    padding: 5px 9px;
+    margin-left: 2px;
+    cursor: pointer;
+    line-height: 0.9;
+}
+
+/* box7 */
+.nav-cart {
+    margin-bottom: 2px;
+    padding: 5px 9px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+
+/* panel */
+.panel {
+    background-color: #222f3d;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all {
+    font-weight: 700;
+    padding: 9px 3px;
+    cursor: pointer;
+}
+
+.panel-options p {
+    display: inline;
+    margin-left: 15px;
+    padding: 9px 3px;
+    cursor: pointer;
+}
+
+.panel-options {
+    width: 78%;
+    font-size: 0.9rem;
+}
+
+.panel-deals {
+    font-size: 1rem;
+    padding: 9px 3px;
+    cursor: pointer;
+}
+
+/* hero-section */
+.hero-section {
+    background-image: url("hero_img.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+}
+
+.hero-msg a {
+    text-decoration: none;
+    color: #007185;
+}
+
+/* shoping-section */
+.shop-section {
+    background-color: #e2e7e6;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box {
+    background-color: rgb(248, 180, 191);
+    padding-top: 20px;
+    height: 400px;
+    width: 23%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.grid {
+    margin-top: 15px;
+    height: 300px;
+    width: 349px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+}
+
+.box h2 {
+    margin: 0 20px;
+    font-size: 21px;
+}
+
+.box1-1 img {
+    height: 115px;
+    width: 150px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.box p {
+    color: #0f1111;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.box a {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 25px;
+    color: #007185;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* footer */
+.foot-panel1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot-panel1 {
+    display: block;
+    text-align: center;
+    padding: 16px 0;
+    background-color: #37475a;
+    font-size: 13px;
+}
+
+.foot-panel1:hover {
+    background-color: #324052;
+}
+
+.foot-panel2 {
+    background-color: #232F3E;
+    color: white;
+    height: 450px;
+}
+
+.footer-table-head {
+    margin: auto;
+    margin-top: 30px;
+    width: 1000px;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-table {
+    padding: 0 10px;
+    height: 100%;
+    width: auto;
+    line-height: 1.6;
+    letter-spacing: 0.4;
+}
+
+.footer-head {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 4px 0 8px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.footer-list a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #DDDDDD;
+}
+
+.footer-list a:hover {
+    text-decoration: underline;
+}
+
+.footer-line {
+    border-top: 1px solid #3a4553;
+    margin-top: 40px;
+}
+
+.foot-panel3 {
+    height: 68px;
+    width: 700px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    background-image: url("amazon_logo.webp");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.boxes {
+    height: 35px;
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ddd;
+}
+
+.foot-box {
+    width: auto;
+    height: 25px;
+    border: 1px solid #848688;
+    padding: 9px 15px 0px 8px;
+    border-radius: 3px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.foot-panel4 {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+.end-line {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 0 7px;
+}
